@@ -1,0 +1,275 @@
+/*css start here*/
+
+
+*{margin:0;padding:0;list-style:none;}
+.mobile{
+    display: none;
+}
+.main-area{width:960px;margin:0 auto;}
+
+.fix{overflow:hidden;}
+
+.navbar-nav>li>a {
+    padding-bottom: 15px;
+    padding-top: 17px;
+    text-transform: uppercase;
+    color: #0C71CD;
+}
+
+.nav>li>a:focus,
+.nav>li>a:hover {
+    text-decoration: none;
+    
+    color: #0C71CD;
+}
+
+.logo {
+  margin-top: -10px;
+}
+.menu-bg {
+    background: #c39743;
+}
+
+/*------slider------*/
+#slider {
+    background: url(img/fp_headbg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-height: 600px;
+    margin: 0 auto;
+}
+
+.slider-content {
+    padding: 80px 0;
+}
+
+.item {
+    padding: 100px 0;
+    color: #fff;
+}
+
+.item h3 {
+    font-size: 50px;
+    /*max-width: 715px;*/
+    font-weight: bold;
+    margin: 0 auto;
+    color: #0D70CB;
+    text-transform: uppercase;
+}
+
+.item p {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: black;
+}
+
+
+/*why-work*/
+
+.why-work{
+    padding: 100px;
+    color: #0D70CB;
+}
+.work{
+background: #f3f3f3 none repeat scroll 0 0;
+color: #fff;
+margin: 20px auto 0;
+max-width: 320px;
+
+}
+
+.work-top{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+.work-top h2{
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 20px;
+    color: #4776e6;
+    
+}
+
+.work-top p{
+   font-size: 13px;
+   padding: 28px;
+    
+}
+/*.work :hover{
+    background: #e55454;
+    color: #fff;
+}*/
+
+.why-work-top h2{
+    padding: 50px;
+}
+
+/*.why-work-bg{
+    background: url(img/pb-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-height: 714px;
+    margin: 0 auto;
+    padding: 95px;
+    color: #fff;
+}*/
+
+.works-top h2{
+   font-size: 40px;
+   margin-top: 50px;
+
+}
+.works-top p{
+   font-size: 10px;
+   margin-bottom: 15px;
+}
+
+.work-icon {
+    margin: 0 120px;
+}
+.work-icon p {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.load_more-btn {
+    background: #4776e6;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 14px;
+    margin-top: 60px;
+    padding: 8px 15px;
+}
+
+
+#services {
+    padding: 35px 0;
+}
+
+.services-content {
+    margin-top: 72px;
+}
+.service-top h2{
+   
+    color: #4776e6;
+    
+}
+.services-img {
+    margin-top: 72px;
+}
+
+.services-content h2 {
+    color: #4776e6;
+    font-size: 24px;
+    padding-bottom: 15px;
+}
+
+.services-content p {
+    color: black;
+    font-size: 21px;
+    padding-top: 0px;
+    text-align: justify;
+  text-justify: inter-word;
+}
+.service_list li{
+    color: black;
+    font-size: 20px; 
+}
+
+.service-btn{
+   background: #4776e6;
+border-radius: 5px;
+color: #fff;
+font-weight: bold;
+margin-top: 55px;
+padding: 17px 18px;
+text-transform: uppercase;
+text-decoration: none;
+}
+
+#footer{
+    background: url(img/fp_footbg-1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    padding: 25px 0;
+}
+.footer-logo {
+  padding: 25px 0;
+}
+.footer-logo h3{
+  font-size: 45px;
+  font-weight: 720;
+}
+.footer-logo p{
+  font-size: 18px;
+  margin-top: -8px;
+}
+
+.footer-contact h2{
+    font-size: 20px;
+}
+.footer-contact i{
+    color: #4776e6;
+}
+.footer-contact ul{
+    
+}
+
+.footer-contact p {
+  margin-bottom: 13px;
+}
+.footer-contact ul li{
+    list-style: none;
+}
+
+.footer-text p {
+    color: #fff;
+    margin-top: 35px;
+}
+
+.footer-contact{
+ padding: 20px;
+}
+
+.footer-contact h2{
+    font-size: 25px;
+}
+.footer-contact i{
+    color: #fff;
+    margin-left: 2px;
+    font-size: 17px;
+}
+.footer-contact ul{
+    
+}
+
+.footer-contact p {
+  margin-bottom: 13px;
+   font-size: 17px;
+}
+.footer-contact ul li{
+    list-style: none;
+}
+
+/*about_page*/
+
+#page{
+    background: url(img/c_arc.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.page_item h3 {
+    font-size: 50px;
+    /*max-width: 715px;*/
+    font-weight: bold;
+    margin: -75px auto;
+    color: #fff;
+    text-transform: uppercase;
+}
