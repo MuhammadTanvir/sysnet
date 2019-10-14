@@ -51,41 +51,59 @@
 
 .item h3 {
     font-size: 50px;
-    /*max-width: 715px;*/
     font-weight: bold;
     margin: 0 auto;
-    color: #0D70CB;
+    color: #0C70CC;
     text-transform: uppercase;
 }
 
 .item p {
     font-size: 20px;
+    color: #fff;
     text-transform: uppercase;
-    color: black;
 }
 
 
 /*why-work*/
 
-.why-work{
-    padding: 100px;
-    color: #0D70CB;
-}
-.work{
-background: #f3f3f3 none repeat scroll 0 0;
-color: #fff;
-margin: 20px auto 0;
-max-width: 320px;
-
-}
-
-.work-top{
-    padding-top: 50px;
-    padding-bottom: 50px;
+#why-work {
+   /* color: #0D70CB;*/
+    padding: 100px 0;
+    border-radius: 5px;   
+    height: 100%;
+    width: 100%;
 }
 
 
-.work-top h2{
+.single_work{
+    background: #f3f3f3;
+    padding: 65px;
+    box-shadow: 10px 10px 10px #eeeeee;
+    margin-top: 50px;
+    
+}
+.single_work:hover{
+    background: #f6f6f6;
+    
+}
+
+
+.work-top h2 {
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 50px;
+    color: #4776e6;
+    /*position: relative;*/
+}
+
+.work-top p {
+    font-size: 18px;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-bottom: 75px;
+}
+
+.work-icon h2{
     font-size: 18px;
     font-weight: bold;
     padding-top: 20px;
@@ -93,47 +111,9 @@ max-width: 320px;
     
 }
 
-.work-top p{
-   font-size: 13px;
-   padding: 28px;
-    
-}
-/*.work :hover{
-    background: #e55454;
-    color: #fff;
-}*/
-
-.why-work-top h2{
-    padding: 50px;
-}
-
-/*.why-work-bg{
-    background: url(img/pb-bg.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    max-height: 714px;
-    margin: 0 auto;
-    padding: 95px;
-    color: #fff;
-}*/
-
-.works-top h2{
-   font-size: 40px;
-   margin-top: 50px;
-
-}
-.works-top p{
-   font-size: 10px;
-   margin-bottom: 15px;
-}
-
-.work-icon {
-    margin: 0 120px;
-}
 .work-icon p {
-    font-size: 17px;
-    font-weight: bold;
+    margin: 0 auto;
+    max-width: 175px;
 }
 
 .load_more-btn {
@@ -142,7 +122,13 @@ max-width: 320px;
     color: #fff;
     font-size: 14px;
     margin-top: 60px;
-    padding: 8px 15px;
+    padding: 8px 15px;    
+   min-width: 50px;
+   max-width: 300px;
+}
+.load_more-btn a{
+    color: #fff;
+    text-decoration: none
 }
 
 
@@ -188,7 +174,13 @@ font-weight: bold;
 margin-top: 55px;
 padding: 17px 18px;
 text-transform: uppercase;
-text-decoration: none;
+min-width: 50px;
+   max-width: 300px;
+}
+
+.service-btn a{
+    color: #fff;
+    text-decoration: none
 }
 
 #footer{
